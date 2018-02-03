@@ -15,14 +15,12 @@ tags:
 ```
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 curl -L https://raw.githubusercontent.com/wayneeseguin/rvm/master/binscripts/rvm-installer | bash -s stable
-source /etc/profile.d/rvm.sh
-mkdir .rvm
-mkdir .rvm/user
+source ~/.rvm/scripts/rvm
 echo "ruby_url=https://cache.ruby-china.org/pub/ruby" > ~/.rvm/user/db
 ```
 结果：
 ```
-[root@localhost ~]# rvm -v
+[ruby@localhost ~]# rvm -v
 rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 ```
 安装ruby 2.5.0：
@@ -33,9 +31,9 @@ rvm use 2.5.0 --default
 ```
 结果：
 ```
-[root@localhost ~]# ruby -v
+[ruby@localhost ~]# ruby -v
 ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux]
-[root@localhost ~]# gem -v
+[ruby@localhost ~]# gem -v
 2.7.3
 ```
 安装rails：
@@ -46,7 +44,7 @@ gem install rails
 ```
 结果：
 ```
-[root@localhost ~]# rails -v
+[ruby@localhost ~]# rails -v
 Rails 5.1.4
 ```
 好了，安装已经完成了，可以说安装的步骤很简单~~比Gitlab不知道简单到哪里去了~~
