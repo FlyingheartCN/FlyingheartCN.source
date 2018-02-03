@@ -48,3 +48,4 @@ gem install rails
 Rails 5.1.4
 ```
 好了，安装已经完成了，可以说安装的步骤很简单~~比Gitlab不知道简单到哪里去了~~
+记得安装一个js运行时，我选的是nodejs，直接yum装上就好
