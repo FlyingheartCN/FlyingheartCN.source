@@ -35,6 +35,9 @@ ftp-sync.json配置如下
     }
 }
 ```
+
+### 远程调试：
+
 在Windows上安装openssh、git，并且把bin加入PATH中，连接服务器的时候，命令为
 ```
 ssh -L 3000:10.0.0.12:3000 ruby@10.0.0.12
