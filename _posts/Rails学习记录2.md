@@ -7,7 +7,7 @@ tags:
     - 编程
 ---
 
-###编辑器配置：
+### 编辑器配置：
 在Windows上写代码，通过sftp同步到Linux上，Linux上运行rails console，通过ssh进行调试
 编辑器为VSCode，安装扩展ftp-sync、Ruby、Ruby on Rails、Simple Ruby ERB
 ftp-sync.json配置如下
