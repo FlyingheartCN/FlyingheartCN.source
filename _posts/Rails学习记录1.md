@@ -6,11 +6,10 @@ tags:
     - Rails
     - 编程
 ---
-<!-- more -->
 
 ### 安装：
 我的电脑是Windows系统，所以为了方便我在VMware中安装了虚拟机，系统是CentOS7，保持最新
-
+<!-- more -->
 安装rvm：
 ```
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
